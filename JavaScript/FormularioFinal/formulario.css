@@ -1,0 +1,45 @@
+body, .default{
+    line-height: 1.6em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    color: #669;
+}
+
+#columnas
+{
+    margin: 45px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#columnas caption{
+    font-size: 20px;
+}
+
+#columnas th{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color: #039;
+}
+
+#columnas td
+{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #ebedff
+}
+
+.fila
+{
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#columnas tr:hover td
+{
+    color: #339;
+    background: #eff2ff;
+}
